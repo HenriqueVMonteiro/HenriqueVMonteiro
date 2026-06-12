@@ -1,0 +1,27 @@
+<svg id="fs" xmlns="http://www.w3.org/2000/svg" width="880" height="500" viewBox="0 0 880 500" role="img" aria-label="Árvore de skills de Henrique Monteiro" font-family="ui-monospace, 'Cascadia Mono', 'Segoe UI Mono', Consolas, 'SF Mono', Menlo, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="15" style="white-space:pre">
+  <style>
+    .fs-ln { opacity: 0; animation: fs_in .01s steps(1) forwards; }
+    @keyframes fs_in { to { opacity: 1 } }
+    @media (prefers-reduced-motion: reduce) { #fs * { animation: none !important } #fs .fs-ln { opacity: 1 } }
+  </style>
+  <rect width="880" height="500" fill="#16161e"/>
+  <rect x="0.5" y="0.5" width="879" height="499" fill="none" stroke="#292e42"/>
+  <text x="28" y="44"><tspan fill="#7aa2f7">henrique@kernel</tspan><tspan fill="#565f89">:~$ </tspan><tspan fill="#c0caf5">skills --tree</tspan></text>
+  <g>
+    <text class="fs-ln" style="animation-delay:.3s" x="28" y="80" fill="#565f89">.</text>
+    <text class="fs-ln" style="animation-delay:.42s" x="28" y="106"><tspan fill="#3d4466">├── </tspan><tspan fill="#7aa2f7">kernel-space/</tspan></text>
+    <text class="fs-ln" style="animation-delay:.54s" x="28" y="132"><tspan fill="#3d4466">│   ├── </tspan><tspan fill="#a9b1d6">C · C++</tspan></text>
+    <text class="fs-ln" style="animation-delay:.66s" x="28" y="158"><tspan fill="#3d4466">│   ├── </tspan><tspan fill="#a9b1d6">Assembly x86 · x64</tspan></text>
+    <text class="fs-ln" style="animation-delay:.78s" x="28" y="184"><tspan fill="#3d4466">│   ├── </tspan><tspan fill="#a9b1d6">Windows Driver Kit (WDK)</tspan></text>
+    <text class="fs-ln" style="animation-delay:.9s" x="28" y="210"><tspan fill="#3d4466">│   └── </tspan><tspan fill="#a9b1d6">WinDbg · GDB</tspan></text>
+    <text class="fs-ln" style="animation-delay:1.02s" x="28" y="236"><tspan fill="#3d4466">├── </tspan><tspan fill="#bb9af7">reverse-engineering/</tspan></text>
+    <text class="fs-ln" style="animation-delay:1.14s" x="28" y="262"><tspan fill="#3d4466">│   ├── </tspan><tspan fill="#a9b1d6">IDA Pro · Ghidra · x64dbg</tspan></text>
+    <text class="fs-ln" style="animation-delay:1.26s" x="28" y="288"><tspan fill="#3d4466">│   └── </tspan><tspan fill="#a9b1d6">análise de binários · unpacking</tspan></text>
+    <text class="fs-ln" style="animation-delay:1.38s" x="28" y="314"><tspan fill="#3d4466">└── </tspan><tspan fill="#7aa2f7">user-space/</tspan></text>
+    <text class="fs-ln" style="animation-delay:1.5s" x="28" y="340"><tspan fill="#3d4466">    ├── </tspan><tspan fill="#a9b1d6">C# · .NET</tspan></text>
+    <text class="fs-ln" style="animation-delay:1.62s" x="28" y="366"><tspan fill="#3d4466">    ├── </tspan><tspan fill="#a9b1d6">TypeScript · React · Vite</tspan></text>
+    <text class="fs-ln" style="animation-delay:1.74s" x="28" y="392"><tspan fill="#3d4466">    ├── </tspan><tspan fill="#a9b1d6">Tailwind · Node.js</tspan></text>
+    <text class="fs-ln" style="animation-delay:1.86s" x="28" y="418"><tspan fill="#3d4466">    └── </tspan><tspan fill="#a9b1d6">MySQL · Supabase · Git</tspan></text>
+  </g>
+  <text class="fs-ln" style="animation-delay:2.1s" x="28" y="462" fill="#565f89">3 diretórios, 11 skills</text>
+</svg>
